@@ -1,99 +1,92 @@
-# FINZO – Smart Personal Expense Tracker
+# FINZO — Smart Personal Expense Tracker
 
-FINZO is a responsive personal finance web application designed to help users manage daily income, expenses, budgets, savings goals, reports, and future spending insights in one place.
+**A practical personal finance web app built to make everyday expense tracking faster, clearer, and easier.**
 
-## Live Demo
+[Live Demo](https://finzofinalsourcecode.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/mohamed-yusuf-ab2b6230a) · [GitHub Profile](https://github.com/yusuf-digital)
 
-**[Launch FINZO Live Demo](https://finzofinalsourcecode.vercel.app/)**
+> Portfolio showcase repository. The complete deployable source code is kept private.
 
-> This repository is maintained as a portfolio showcase for the FINZO project. The complete deployable source code is kept private.
+## What FINZO Does
 
-## Project Overview
-
-FINZO provides an end-to-end personal expense management workflow. Users can manage income and expenses, organize spending by category, track monthly budgets and savings goals, review visual reports, scan receipts with OCR, add expenses by voice, and view spending predictions.
+FINZO brings daily money management into one responsive web app. Users can track income and expenses, manage budgets and savings goals, scan receipts, add expenses by voice, review visual reports, and understand future spending patterns.
 
 ## Key Features
 
-- Login, registration, forgot-password, remember-me, and logout
-- Dashboard with total income, total expenses, remaining balance, and savings overview
-- Add, edit, delete, and search expenses
-- Add, edit, and delete income records
-- Expense categories and custom category support
-- Monthly category budget tracking
-- Savings goal tracker
-- Expense reports with category and trend charts
-- Challenge Mode
-- Future expense prediction
-- Receipt Scanner with OCR-based receipt text extraction
-- Safe handling for low-confidence handwritten receipts
+- Income and expense tracking
+- Add, edit, delete, and search transactions
+- Custom expense categories
+- Monthly budget tracking
+- Savings goal tracking
+- Receipt scanning with OCR
 - Voice-based expense entry
-- Typed sentence parser for expense entry
-- User profile and profile photo
+- Typed natural-language expense entry
+- Category and trend reports
+- Future expense prediction
+- Challenge Mode
 - Budget and spending notifications
 - Backup export and restore
-- Responsive laptop, tablet, and mobile interface
-- Internal back navigation and exit protection
+- Login, registration, forgot password, remember me, and logout
+- Responsive desktop, tablet, and mobile interface
 
-## Smart Features
+## Smart Inputs
 
 ### Receipt Scanner
-Users can take a receipt photo or upload one from the device. FINZO uses OCR to detect readable receipt information and prepares the expense details for review before saving.
+Upload or capture a receipt and FINZO uses OCR to extract readable information, then prepares the expense details for review before saving.
 
 ### Voice Expense Entry
-Users can speak a natural sentence such as **“Spent 450 rupees on groceries by UPI.”** FINZO converts the recognized sentence into expense details such as amount, category, and payment method for review before adding it.
+Users can speak naturally, for example:
 
-## Technologies Used
+> “Spent 450 rupees on groceries by UPI.”
 
-| Technology | Purpose |
+FINZO converts the sentence into structured expense details such as amount, category, and payment method.
+
+## Tech Stack
+
+| Technology | Used For |
 |---|---|
-| HTML5 | Application structure and forms |
-| CSS3 | Responsive UI, layouts, cards, sidebar, and styling |
-| JavaScript | Application logic, calculations, data management, reports, and predictions |
+| HTML5 | App structure and forms |
+| CSS3 | Responsive layout and UI |
+| JavaScript | App logic, calculations, reports, and predictions |
 | Tesseract.js | Receipt OCR |
-| Web Speech API | Voice-based expense entry |
+| Web Speech API | Voice expense entry |
 | HTML Canvas | Charts and data visualization |
-| localStorage / sessionStorage | Browser-side application and session data |
-| Browser File API | Receipt images, profile photos, and backup import/export |
-| Browser History API | Internal navigation and back-button handling |
-| Vercel | Live project deployment |
-
-## Application Flow
-
-**Login / Register → Dashboard → Expenses → Income → Categories → Budget → Savings Goals → Reports → Challenge Mode → Predictions → Receipt Scanner → Voice Entry → Profile → Settings → Logout**
+| localStorage / sessionStorage | Browser-side app and session data |
+| Browser File API | Receipt images, profile photos, backup import/export |
+| Browser History API | Navigation and back-button handling |
+| Vercel | Deployment |
 
 ## Screenshots
-
-### Login & Registration
-![FINZO Login](screenshots/01-login.png)
 
 ### Dashboard
 ![FINZO Dashboard](screenshots/02-dashboard.png)
 
-### Receipt Scanner – OCR
+### Receipt Scanner
 ![FINZO Receipt Scanner](screenshots/03-receipt-scanner.png)
 
 ### Voice Expense Entry
 ![FINZO Voice Entry](screenshots/04-voice-entry.png)
 
-### Expense Reports
+### Reports
 ![FINZO Reports](screenshots/05-reports.png)
+
+### Login
+![FINZO Login](screenshots/01-login.png)
+
+## Application Flow
+
+**Login / Register → Dashboard → Expenses → Income → Categories → Budget → Savings Goals → Reports → Challenge Mode → Predictions → Receipt Scanner → Voice Entry → Profile → Settings → Logout**
+
+## Why I Built It
+
+FINZO was built as a practical project focused on solving a common daily problem: keeping personal expenses organized without making the process feel complicated. The project combines finance tracking with OCR, voice input, analytics, and responsive web design in one workflow.
 
 ## Project Highlights
 
-- Complete personal expense management workflow
-- Responsive interface for desktop and mobile
-- OCR-based receipt input
-- Voice-based expense entry
-- Budget and savings tracking
-- Visual reports and spending forecasts
-- Backup and restore workflow
-
-## Portfolio Notice
-
-This repository is maintained as a portfolio showcase of the FINZO project. The complete deployable source code is maintained privately.
+**OCR · Voice Input · Budgeting · Savings · Analytics · Predictions · Responsive UI**
 
 ## Author
 
 **Mohamed Yusuf**  
+Digital Marketing · AI Automation · Vibe Coding
 
-[GitHub Profile](https://github.com/yusuf-digital) · [LinkedIn Profile](https://www.linkedin.com/in/mohamed-yusuf-ab2b6230a)
+[LinkedIn](https://www.linkedin.com/in/mohamed-yusuf-ab2b6230a) · [GitHub](https://github.com/yusuf-digital)
